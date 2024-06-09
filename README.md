@@ -9,6 +9,7 @@ Improves vanilla loot generated in structures.
 - Igloo
 - Jungle Temple
 - Mineshaft
+- Pillager Outpost
 - Ruined Portal
 
 ## Downloads (Coming soon)
