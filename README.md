@@ -6,12 +6,14 @@ Improves vanilla loot generated in structures.
 ## Supported structures
 - Ancient City
 - Desert Pyramid
+- End city
 - Igloo
 - Jungle Temple
 - Mineshaft
 - Ocean Ruins
 - Pillager Outpost
 - Ruined Portal
+- Woodland Mansion
 
 ## FAQ
 - **Can I use it on my Server?**  
