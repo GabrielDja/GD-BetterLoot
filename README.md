@@ -13,6 +13,8 @@ Improves vanilla loot generated in structures.
 - Ocean Ruins
 - Pillager Outpost
 - Ruined Portal
+- Stronghold
+- Trial Chambers
 - Woodland Mansion
 
 ## FAQ
