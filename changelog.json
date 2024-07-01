@@ -2,6 +2,15 @@ GD BetterLoot - By GabrielDja (This Changelog is in French)
 LICENSE: MIT License
 ------
 
+v1.0b3
+✨Nouveau butin:
+- Bastion Remnant
+
+⚒️Améliorations:
+- Folder renamed for 1.21.
+	- loot_tables -> loot_table
+
+------------
 v1.0b2
 ✨Nouveau butin:
 - Stronghold

@@ -8,6 +8,7 @@ Improves vanilla loot generated in structures.
 
 ## Supported structures
 - Ancient City
+- Bastion Remnant
 - Desert Pyramid
 - End city
 - Igloo
