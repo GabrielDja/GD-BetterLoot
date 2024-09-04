@@ -9,13 +9,16 @@ Improves vanilla loot generated in structures.
 ## Supported structures
 - Ancient City
 - Bastion Remnant
+- Buried Treasure
 - Desert Pyramid
+- Dispensers (Trial Chambers)
 - End city
 - Igloo
 - Jungle Temple
 - Mineshaft
 - Ocean Ruins
 - Pillager Outpost
+- Pots (Trial Chambers)
 - Ruined Portal
 - Stronghold
 - Trial Chambers
