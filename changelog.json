@@ -2,6 +2,20 @@ GD BetterLoot - By GabrielDja (This Changelog is in French)
 LICENSE: MIT License
 ------
 
+v1.0b4
+✨Nouveau butin:
+- Pots (Trial Chambers)
+- Dispensers (Trial Chambers)
+	- chamber.json
+	- corridor.json
+- Buried Treasure
+
+⚒️Améliorations:
+- Loot updates for the following structures:
+	- Desert Pyramid
+	- Jungle Pyramid
+
+------------
 v1.0b3
 ✨Nouveau butin:
 - Bastion Remnant
