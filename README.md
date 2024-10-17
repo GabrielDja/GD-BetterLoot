@@ -16,12 +16,14 @@ Improves vanilla loot generated in structures.
 - Igloo
 - Jungle Temple
 - Mineshaft
+- Nether Fortress
 - Ocean Ruins
 - Pillager Outpost
 - Pots (Trial Chambers)
 - Ruined Portal
 - Stronghold
 - Trial Chambers
+- Village (All)
 - Woodland Mansion
 
 ## FAQ
