@@ -8,6 +8,7 @@ Improves vanilla loot generated in structures.
 
 ## Supported structures
 - Ancient City
+- Ancient City Ice Box
 - Bastion Remnant
 - Buried Treasure
 - Desert Pyramid
@@ -21,6 +22,8 @@ Improves vanilla loot generated in structures.
 - Pillager Outpost
 - Pots (Trial Chambers)
 - Ruined Portal
+- Shipwreck
+- Simple Dungeon
 - Stronghold
 - Trial Chambers
 - Village (All)
