@@ -135,10 +135,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 2,
           "functions": [
