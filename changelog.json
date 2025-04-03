@@ -2,6 +2,15 @@ GD BetterLoot - By GabrielDja (This Changelog is in French)
 LICENSE: MIT License
 ------
 
+v1.2
+✨Nouveau butin:
+- Les bundles peuvent être trouvés dans les villages.
+
+⚒️Améliorations:
+- Prise en charge du format 71 (1.21.5)
+- Ajustement du butin généré dans les coffres du village
+
+------------
 v1.1
 ✨Nouveau butin:
 - 
