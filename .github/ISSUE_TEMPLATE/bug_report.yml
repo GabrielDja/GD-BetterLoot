@@ -9,6 +9,8 @@ body:
       label: Game Version
       description: On which version of the game do you encounter the problem?
       options:
+        - 1.21.6+
+        - 1.21.5
         - 1.21.4
         - 1.21.2+
         - 1.21+
