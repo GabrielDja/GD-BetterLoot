@@ -1,7 +1,13 @@
-GD BetterLoot - By GabrielDja (This Changelog is in French)
-LICENSE: MIT License
-------
+<!-- GD BetterLoot - By GabrielDja (This Changelog is in French) -->
 
+v1.3
+✨ Nouveau butin:
+- 
+
+⚒️ Améliorations:
+- Prend en charge la version 84 (26.1)
+
+------------
 v1.2
 ✨Nouveau butin:
 - Les bundles peuvent être trouvés dans les villages.

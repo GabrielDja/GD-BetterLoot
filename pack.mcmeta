@@ -1,9 +1,11 @@
 {
   "pack": {
     "pack_format": 48,
+    "min_format": 48,
+    "max_format": 101,
     "supported_formats": {
       "min_inclusive": 48,
-      "max_inclusive": 71
+      "max_inclusive": 101
     },
     "description": "Improves vanilla loot generated in structures."
   }
