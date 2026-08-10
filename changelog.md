@@ -1,11 +1,18 @@
-<!-- GD BetterLoot - By GabrielDja (This Changelog is in French) -->
+<!-- GD BetterLoot - By GabrielDja -->
 
+v1.4.0
+✨ **New loot:**
+- Spawn Bonus Chest
+
+⚒️ **Changes:**
+- Supports version `107` (26.2)
+- The following files have been updated:
+  - village_desert_house
+
+------------
 v1.3
-✨ Nouveau butin:
-- 
-
-⚒️ Améliorations:
-- Prend en charge la version 84 (26.1)
+⚒️ Changes:
+- Supports version 101 (26.1)
 
 ------------
 v1.2
@@ -18,9 +25,6 @@ v1.2
 
 ------------
 v1.1
-✨Nouveau butin:
-- 
-
 ⚒️Améliorations:
 - Correction d'une petite erreur dans "abandoned_mineshaft.json".
 
@@ -32,9 +36,6 @@ La version 1.20.5+ ne sera plus maintenue.
 - Ancient City Ice Box
 - Shipwreck
 - Simple Dungeon
-
-⚒️Améliorations:
-- 
 
 ------------
 v1.0b5
@@ -76,9 +77,6 @@ v1.0b2
 - Stronghold
 - Trial Chambers
 
-⚒️Améliorations:
-- 
-
 ------------
 v1.0b1
 ✨Nouveau butin:
@@ -92,6 +90,3 @@ v1.0b1
 - Pillager Outpost
 - Ruined Portal
 - Woodland Mansion
-
-⚒️Améliorations:
-- 
