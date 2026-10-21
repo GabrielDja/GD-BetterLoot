@@ -13,9 +13,9 @@
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "weight": 36,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -29,9 +29,9 @@
           "type": "minecraft:item",
           "name": "minecraft:flint",
           "weight": 40,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -45,9 +45,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 22,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -76,9 +76,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6,
@@ -92,9 +92,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -103,9 +103,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -114,9 +114,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_hoe",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -125,9 +125,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_shovel",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -136,9 +136,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_pickaxe",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -147,9 +147,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -158,9 +158,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -169,9 +169,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -180,9 +180,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -191,9 +191,9 @@
           "type": "minecraft:item",
           "name": "minecraft:glistering_melon_slice",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
@@ -212,9 +212,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
@@ -233,9 +233,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -257,9 +257,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

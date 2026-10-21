@@ -13,9 +13,9 @@
           "type": "minecraft:item",
           "name": "minecraft:trial_key",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -25,9 +25,9 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -41,9 +41,9 @@
           "type": "minecraft:item",
           "name": "minecraft:wooden_axe",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -53,9 +53,9 @@
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -65,9 +65,9 @@
           "type": "minecraft:item",
           "name": "minecraft:honeycomb",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -81,9 +81,9 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 14,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 8,

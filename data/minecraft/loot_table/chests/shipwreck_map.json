@@ -6,22 +6,27 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "name": "minecraft:buried_treasure_map",
+          "modifier": [
             {
+              "type": "minecraft:exploration_map",
               "decoration": "minecraft:red_x",
-              "function": "minecraft:exploration_map",
+              "destination": "#minecraft:on_treasure_maps",
               "skip_existing_chunks": false,
               "zoom": 1
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "filled_map.buried_treasure"
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
               },
-              "target": "item_name"
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
             }
-          ],
-          "name": "minecraft:map"
+          ]
         }
       ],
       "rolls": 1
@@ -46,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -54,7 +59,7 @@
                 "max": 14,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:paper",
@@ -62,7 +67,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -70,7 +75,7 @@
                 "max": 8,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:feather",
@@ -78,7 +83,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -86,7 +91,7 @@
                 "max": 5,
                 "min": 1
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:book",
@@ -104,7 +109,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -112,7 +117,7 @@
                 "min": 2,
                 "max": 3
               },
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "conditions": []
             }
           ],

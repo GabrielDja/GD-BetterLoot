@@ -13,9 +13,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -29,9 +29,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 22,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -45,9 +45,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 24,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -61,9 +61,9 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 24,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -77,9 +77,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "weight": 22,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -93,9 +93,9 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 20,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -114,9 +114,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 20,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -145,9 +145,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -161,9 +161,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 14,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -182,9 +182,9 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -198,9 +198,9 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -214,9 +214,9 @@
           "type": "minecraft:item",
           "name": "minecraft:sand",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -245,9 +245,9 @@
           "type": "minecraft:item",
           "name": "minecraft:dune_armor_trim_smithing_template",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 2,
               "add": false
             }

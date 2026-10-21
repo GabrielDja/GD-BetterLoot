@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "effects": [
                 {
@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "function": "minecraft:set_stew_effect"
+              "type": "minecraft:set_stew_effect"
             },
             {
               "add": false,
@@ -35,14 +35,14 @@
                 "max": 6,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:suspicious_stew"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -50,14 +50,14 @@
                 "max": 8,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -65,14 +65,14 @@
                 "max": 12,
                 "min": 3
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:baked_potato"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -80,7 +80,7 @@
                 "max": 6,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:packed_ice",
@@ -88,7 +88,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -96,7 +96,7 @@
                 "max": 6,
                 "min": 2
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:snowball",

@@ -9,14 +9,14 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -25,9 +25,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_shovel",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -37,9 +37,9 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -48,7 +48,7 @@
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -69,9 +69,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -81,9 +81,9 @@
           "type": "minecraft:item",
           "name": "minecraft:spectral_arrow",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 10,
@@ -97,9 +97,9 @@
           "type": "minecraft:item",
           "name": "minecraft:piglin_banner_pattern",
           "weight": 9,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -109,9 +109,9 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_pigstep",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -121,9 +121,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6,
@@ -137,9 +137,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 9,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -149,9 +149,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "minecraft:soul_speed"
             }
           ]
@@ -166,9 +166,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -177,12 +177,12 @@
               "add": false
             },
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -191,9 +191,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -202,14 +202,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "minecraft:soul_speed"
             }
           ]
@@ -217,14 +217,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -233,9 +233,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -244,9 +244,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -256,9 +256,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -272,9 +272,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -287,9 +287,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -298,9 +298,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -309,9 +309,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -320,9 +320,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -331,9 +331,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
@@ -343,9 +343,9 @@
           "type": "minecraft:item",
           "name": "minecraft:crying_obsidian",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -369,9 +369,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chain",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -385,9 +385,9 @@
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -401,9 +401,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bone_block",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -416,9 +416,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -432,9 +432,9 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -448,9 +448,9 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 8,
@@ -463,9 +463,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_porkchop",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1,
               "add": false
             }
