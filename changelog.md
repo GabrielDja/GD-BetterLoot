@@ -1,15 +1,16 @@
 <!-- GD BetterLoot - By GabrielDja -->
 
-v1.4.0 - 26.3
+v1.4.1
 ✨ **New Loots:**
 - Abandoned Camp
 
 ⚒️ **Changes:**
 - Updated to version `121` (26.3)
 - Upgrading `.json` files to the new format.
+- Adjustment of loot in certain villages.
 
 ------------
-v1.4.0 - 26.2
+v1.4.0
 ✨ **New loot:**
 - Spawn Bonus Chest
 
